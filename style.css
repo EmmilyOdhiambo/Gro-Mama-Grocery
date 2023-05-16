@@ -32,4 +32,9 @@
  .box-container{
     margin-left: 10%;
  }
+ .britah{
+   display: flex;
+   justify-content: space-between;
+   background-color: gainsboro;
+ }
 /*category end */
