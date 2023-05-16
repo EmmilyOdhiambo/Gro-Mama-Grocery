@@ -1,0 +1,35 @@
+/* category start */
+.category .box-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+ 
+ }
+ .category .box-container .box{
+    border: 1rem solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    flex: 1 1 25;
+ }
+ .category .box-container .box img{
+    width: 20rem;
+    margin: .5rem 0;
+ }
+ .category .box-container .box h3{
+    font-size: 3.5rem;
+    color: var(--black);
+ }
+ .category .box-container .box p{
+    font-size: 2rem;
+    color: var(--black);
+    color: #666;
+    padding: .5rem 0;
+ }
+ .category .box-container .box .button{
+    display: block;
+ }
+ .box-container{
+    margin-left: 10%;
+ }
+/*category end */
